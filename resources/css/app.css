@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes move {
+    to {
+        transform:translateX(105%);
+    }
+}
+.moveToRight {
+    animation-name: move;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
